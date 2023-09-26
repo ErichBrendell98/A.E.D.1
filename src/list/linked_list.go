@@ -1,7 +1,5 @@
 package list
 
-import "errors"
-
 type Node struct {
     data interface{}
     next *Node
